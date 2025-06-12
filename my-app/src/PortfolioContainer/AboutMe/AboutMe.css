@@ -1,0 +1,75 @@
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+.about-me-parent {
+  max-width: 1000px;
+  width: 70%;
+}
+.about-me-card {
+  display: flex;
+  width: 100%;
+  background-color: rgb(242, 236, 240);
+  box-shadow: 0 0px 20px -2px #1f2235;
+}
+
+about-me-details {
+  width: 48%;
+  text-align: justify;
+  padding: 30px;
+}
+.about-me-description {
+  font-size: 12px;
+}
+.about-me-highlights {
+  margin: 25px 0;
+}
+.about-me-heading {
+  font-family: "poppins bold";
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  
+}
+.highlight {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 12px;
+  margin-left: 10px;
+ 
+}
+
+
+.about-me-options .highlighted-btn {
+  margin: 0 0 0 30px;
+}
+
+@media only screen and(max-width: 1110px) {
+  .about-me-parent {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 898px) {
+  .about-me-details {
+    width: 100%;
+  }
+  .about-me-options {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and(max-width:466px) {
+  .about-me-options {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-options .highlighted-btn {
+    margin: 24px 0 0 0 !important;
+  }
+  .about-me-options button {
+    width: 100%;
+  }
+}
