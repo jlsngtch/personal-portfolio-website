@@ -4,6 +4,7 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Resume.css";
 
+
 const Resume = (props) => {
   /* STATES */
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -70,8 +71,10 @@ const Resume = (props) => {
       title: "Acme Dashboard to manage Invoices In realtime.",
       duration: { fromDate: "2024", toDate: "2025" },
       description:
-        "This is a nextjs Dashboard developed as part of learning Nextjs and it can be used to manage invoices in real time",
+        "This is a nextjs Dashboard developed as part of learning Nextjs and it can be used to manage invoices in real time Email: user@nextmail.com password: 123456 : https://nextjs-dashboard-owto.vercel.app/dashboard",
+        
       subHeading: "Technologies Used: Nextjs, TypeScript, POSTGRESQL and Tailwind",
+
     },
     {
       title: "Personal Portfolio Website",
@@ -81,13 +84,6 @@ const Resume = (props) => {
       subHeading: "Technologies Used: React JS, HTML and Bootsrap",
     },
 
-    {
-      title: "Employee Management System ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description: "CRUD application project.",
-      subHeading:
-        "Technologies Used Nodejs, Express js, HTML, CSS, Mongo db and Containerization Docker",
-    },
   ];
 
   const resumeDetails = [
@@ -136,10 +132,6 @@ const Resume = (props) => {
             -Performance Metrics and Reporting
           </span>
           <br />
-          <span className="resume-description-text">
-            -Technical support and troubleshooting of biometrics devices
-          </span>
-          <br />
         </div>
       </div>
       <div className="experience-container">
@@ -154,12 +146,6 @@ const Resume = (props) => {
             -Network Administration, User Support, Knowledge Shairing and Training, Hardware Maintenance
           </span>
         </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            -Inventory Management, installation and configuration of Computer Hardware and Software
-          </span>
-        </div>
-        
       </div>
     </div>,
 

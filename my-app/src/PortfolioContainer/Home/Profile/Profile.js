@@ -14,17 +14,11 @@ export default function Profile() {
               <a href="https://www.linkedin.com/in/julius-ngetich-47b8b4182/">
                 <i className="fa fa-facebook-square" />
               </a>
-              <a href="#">
-                <i className="fa fa-google-plus-square" />
-              </a>
-              <a href="https://www.linkedin.com/in/julius-ngetich-47b8b4182/">
-                <i className="fa fa-instagram" />
-              </a>
               <a href="https://www.linkedin.com/in/julius-ngetich-47b8b4182/">
                 <i className="fa fa-youtube-square" />
               </a>
-              <a href="https://www.linkedin.com/in/julius-ngetich-47b8b4182/">
-                <i className="fa fa-linkedin" />
+              <a href="https://github.com/jlsngtch">
+                <i className="fa fa-github" />
               </a>
             </div>
           </div>
@@ -51,6 +45,8 @@ export default function Profile() {
                     1000,
                     "React/Nodejs 🌐",
                     1000,
+                    "NextJs 🌐",
+                    1000,
                   ]}
                 />
               </h1>
@@ -64,7 +60,7 @@ export default function Profile() {
             <button className="btn primary-btn"
             onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
             > Hire Me </button>
-            <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+            <a href="./juliuscvv.pdf" download="Juliuscv.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
