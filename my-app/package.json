@@ -24,6 +24,12 @@
     "react-typical": "^0.1.3",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "react-typical": {
+        "react": "$react",
+        "react-dom": "$react-dom"
+    }
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
